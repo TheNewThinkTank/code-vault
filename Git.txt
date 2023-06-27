@@ -1,0 +1,7 @@
+# Fixing detached HEAD, when on feature branch
+git pull --rebase origin main
+git log
+git push --force
+
+git config --global user.email "user@gmail.com"
+git config --global user.name "user"
