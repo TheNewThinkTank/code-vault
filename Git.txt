@@ -9,3 +9,24 @@ git push --force
 
 git config --global user.email "user@gmail.com"
 git config --global user.name "user"
+
+
+
+
+############# remove all git history from repo #############
+#!/usr/local/bin/bash
+
+# prerequisites:
+# all tags deleted
+# main branch is the only branch that exists
+
+: '
+git checkout --orphan last
+git add -A
+git commit -am "feat: rewrite git history" --no-verify
+git branch -D main
+git branch -m main
+git push -f origin main
+git gc --aggressive --prune=all
+'
+#############################################################
