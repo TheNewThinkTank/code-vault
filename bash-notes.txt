@@ -4,6 +4,14 @@ sudo, su
 
 sudo -i
 
+# Create ssh keypair
+ssh-keygen
+cat .ssh/id_rsa
+cat .ssh/id_rsa.pub
+mkdir projects & cd projects/
+cd ~/.ssh
+cp id_rsa.pub authorized_keys
+
 Echo $TERM
 visudo
 
