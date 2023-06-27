@@ -4,6 +4,8 @@ sudo, su
 
 sudo -i
 
+sudo apt update && sudo apt upgrade -y
+
 # Create ssh keypair
 ssh-keygen
 cat .ssh/id_rsa
@@ -38,6 +40,8 @@ less
 
 cmp
 diff
+
+tree -> tree.txt
 
 sort
 
