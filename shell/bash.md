@@ -1,28 +1,33 @@
+# BASH
 
-cat, touch, pwd, mkdir, rmdir, rm, rm -rf
-sudo, su
-
-sudo -i
-
+## Basic commands
+```BASH
+echo, cat, touch,
+whoami, pwd, ls -la
+mkdir, rmdir, rm, rm -rf
+sudo, su, sudo -i
 sudo apt update && sudo apt upgrade -y
+```
 
-# Create ssh keypair
-ssh-keygen
+## SSH
+create ssh keypair:<br>
+`ssh-keygen`
+
+```BASH
 cat .ssh/id_rsa
 cat .ssh/id_rsa.pub
 mkdir projects & cd projects/
 cd ~/.ssh
 cp id_rsa.pub authorized_keys
-
-Echo $TERM
+echo $TERM
 visudo
+```
 
 sudos
 
-Ctrl + d : logout user
+logout user: Ctrl + d
 
-Ctrl + æ: new terminal in VScode
-
+```BASH
 man
 whatis
 which
@@ -54,8 +59,10 @@ awk
 
 chmod
 chown
+```
 
-Networking:
+## Networking
+```BASH
 ifconfig
 ip address | grep eth0
 ping -c 5 -s 500 url
@@ -70,12 +77,15 @@ sudo ufw status
 uname -a
 
 sudo apt install neofetch
+````
 
+```BASH
 cal
 
 echo “4+5” | bc
 
 free
+
 df -H
 
 ps -aux
@@ -88,4 +98,7 @@ systemctl start
 history
 reboot
 shutdown -h now
+```
 
+## VS Code
+new terminal: Ctrl + æ
