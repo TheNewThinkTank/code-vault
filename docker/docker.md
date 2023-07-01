@@ -1,5 +1,8 @@
 # Docker
 
+### initialize new docker project
+`docker init`
+
 ```BASH
 docker build --tag python-django .
 docker run --rm -ti --publish 8000:8000 python-django

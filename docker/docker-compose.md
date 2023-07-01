@@ -5,6 +5,7 @@ https://docs.docker.com/compose/compose-file/
 
 ## run commands
 ```BASH
+docker compose up --build
 sudo docker-compose up -d
 sudo docker-compose down
 sudo docker-compose stop
