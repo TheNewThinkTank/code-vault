@@ -1,17 +1,19 @@
-# See command line history in cmd
-F7
+# CMD
 
-# or, to see the command history in the command prompt itself:
-doskey /history
+## See command line history in cmd
+`F7`
 
-# and send to clipboard:
-doskey /history | clip
+## or, to see the command history in the command prompt itself:
+`doskey /history`
 
-# Delete empty folder
-rmdir folder_name
+## and send to clipboard:
+`doskey /history | clip`
 
-# Delete non-empty folder
-rmdir /S folder_name
+## Delete empty folder
+`rmdir folder_name`
 
-Get IP address form server-name:
-nslookup server-name
+## Delete non-empty folder
+`rmdir /S folder_name`
+
+## Get IP address form server-name:
+`nslookup server-name`
