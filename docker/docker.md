@@ -6,7 +6,7 @@ docker run --rm -ti --publish 8000:8000 python-django
 ```
 
 d: background
-t: terminal (log beskeder)
+t: terminal (log messages)
 i: interactive
 
 ### List running containers
