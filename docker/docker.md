@@ -1,22 +1,28 @@
 # Docker
 
-### initialize new docker project
+## initialize new docker project
 `docker init`
 
-```BASH
-docker build --tag python-django .
-docker run --rm -ti --publish 8000:8000 python-django
-```
+## Images
+Build image:<br>
+`docker build --tag python-django .`
 
-d: background
-t: terminal (log messages)
-i: interactive
+## Containers
+start container:<br>
+`docker run --rm -ti --publish 8000:8000 python-django`
 
-### List running containers
+d: background<br>
+t: terminal (log messages)<br>
+i: interactive<br>
+
+list running containers:<br>
 `docker ps`
 
+stop container:<br>
+`docker stop <container-id>`
+
+list or remove stopped containers:
 ```BASH
-docker stop <container-id>
 docker ps --filter status=exited -q
 docker rm $(docker ps -q)
 docker rm $(docker ps --filter status=exited -q)
