@@ -1,10 +1,16 @@
+# Terraform
+
 Written in Go
 
 HCL: Hashicorp Configuration Language
 
 Install CLI
 
-main.tf
+# script naming
+`main.tf`
+
+```terraform
 terraform {
 
 }
+```

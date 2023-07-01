@@ -1,19 +1,18 @@
-
 # Git - Book
 https://git-scm.com/book/en/v2
 
 # Fixing detached HEAD, when on feature branch
+```BASH
 git pull --rebase origin main
 git log
 git push --force
 
 git config --global user.email "user@gmail.com"
 git config --global user.name "user"
-
-
-
+```
 
 ############# remove all git history from repo #############
+```BASH
 #!/usr/local/bin/bash
 
 # prerequisites:
@@ -29,4 +28,5 @@ git branch -m main
 git push -f origin main
 git gc --aggressive --prune=all
 '
+```
 #############################################################

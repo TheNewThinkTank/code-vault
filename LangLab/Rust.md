@@ -1,11 +1,13 @@
 # code example, main.rs:
 
+```RUST
 fn main() {
     println!('hello, world!');
 }
+```
 
 # program naming
-main.rs
+`main.rs`
 
 # compilation
-rustc main.rs
+`rustc main.rs`
