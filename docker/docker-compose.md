@@ -1,5 +1,8 @@
 # docker-compose
 
+## official ref
+https://docs.docker.com/compose/compose-file/
+
 ## run commands
 ```BASH
 sudo docker-compose up -d
