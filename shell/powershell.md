@@ -1,1 +1,4 @@
-ipconfig /all | clip
+# Powershell
+
+## Networking
+`ipconfig /all | clip`
