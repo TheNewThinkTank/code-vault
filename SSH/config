@@ -1,0 +1,8 @@
+Host foo
+  # Proxy command, ssm agent -> ec2 instance-id
+  Hostname: <IP> | <fully-qualified domain name>
+  # port: # if not default (22)
+
+Host bar
+  Hostname: some_domain
+  User: john
