@@ -1,6 +1,15 @@
 # BASH
 
 ## Basic commands
+clear screen: `Ctrl + l`<br>
+change to home dir: `cd ~`<br>
+change to previous dir: `cd -`<br>
+change directory and swap back again:
+`pushd /some_dir`, then `popd`<br>
+minimize program to the background (e.g. if working on file that's not ready to be saved): `Ctrl + z`<br>
+then send it back to the foreground again:`fg`<br>
+monitor system resources: `htop`<br>
+
 ```BASH
 echo, cat, touch,
 whoami, pwd, ls -la
@@ -81,7 +90,6 @@ df -H
 
 ps -aux
 top
-htop
 kill
 pkill -p name
 systemctl start
