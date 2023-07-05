@@ -13,17 +13,17 @@ example: following command will fail as it is not called with sudo:
 `find /etc -type f`.
 `echo $?` returns 1
 
-`stdin` is represented by the number 0, `stdout` by 1 and `stderr` by 2.
-example: split `stdout` from `stderr` and handle them differently:
-`find /etc -type f 2> /dev/null`
+`stdin` is represented by the number 0, `stdout` by 1 and `stderr` by 2.<br>
+example: split `stdout` from `stderr` and handle them differently:<br>
+`find /etc -type f 2> /dev/null`<br>
 `/dev/null` is a black hole; anything that is sent to `/dev/null` is never seen again.
 
-example: sent `stdout` to a file (it is implied):
-`find /etc -type f > ~/results.txt`
+example: sent `stdout` to a file (it is implied):<br>
+`find /etc -type f > ~/results.txt`<br>
 displays only `stderr`, but newly created file has all `stdout`.
 
-example: send `stdout` and `stderr` to two different files (overwrite):
+example: send `stdout` and `stderr` to two different files (overwrite):<br>
 `find /etc -type f > ~/results.txt 2> ~/errors.txt`
 
-example: append `stdout` and `stderr` to two different files:
+example: append `stdout` and `stderr` to two different files:<br>
 `find /etc -type f >> ~/results.txt 2>> ~/errors.txt`
