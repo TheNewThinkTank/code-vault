@@ -1,8 +1,8 @@
 # Regular Expressions
 
 ## Resourses
-[rexegg](rexegg.com)<br>
-[regex101](regex101.com)<br>
+[rexegg](https://www.rexegg.com/)<br>
+[regex101](https://regex101.com/)<br>
 
 ## Quantifiers
 `*`: 0 or more
