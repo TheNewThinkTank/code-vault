@@ -6,3 +6,15 @@ intended primarily for my own daily work and as a quick reference.
 
 Feel free to use these if you find them helpful,
 but don't expect any certain structure, explanation or consistency.
+
+## Experts and useful resources
+This work could only have been possible thanks to the many excellent people and resourses made available
+largely through the open source community and many popular channels. To name a few,
+
+* Corey Schafer
+* Derek Banas
+* Learn Linux TV
+* Python Engineer
+* Fireship
+* Real Python
+* A Cloud Guru
