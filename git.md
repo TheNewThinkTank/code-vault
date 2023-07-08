@@ -1,5 +1,6 @@
-# Git - Book
-https://git-scm.com/book/en/v2
+# Git
+
+[Book](https://git-scm.com/book/en/v2)
 
 ## Fixing detached HEAD, when on feature branch
 ```BASH
