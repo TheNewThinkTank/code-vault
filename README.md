@@ -20,8 +20,8 @@ but don't expect any certain structure, explanation or consistency.
 `Linux/sed`<br>
 
 ## Experts and useful resources
-This work could only have been possible thanks to the many excellent people and resourses made available
-largely through the open source community and many popular channels. To name a few,
+This work could only have been possible thanks to the many excellent people and resources made available
+largely through the open source community and popular channels. To name a few,
 
 * Corey Schafer
 * Derek Banas
