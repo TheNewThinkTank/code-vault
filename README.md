@@ -9,7 +9,6 @@ but don't expect any certain structure, explanation or consistency.
 
 ## Upcoming
 
-`Linux/cut`<br>
 `Linux/find`<br>
 `Linux/lsof`<br>
 `Linux/top`<br>
@@ -17,6 +16,8 @@ but don't expect any certain structure, explanation or consistency.
 `Linux/rsync`<br>
 `Linux/scp`<br>
 `Linux/etc_fstab`<br>
+
+`LangLab/TypeScript`<br>
 
 ## Experts and useful resources
 This work could only have been possible thanks to the many excellent people and resources made available
