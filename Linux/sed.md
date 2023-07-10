@@ -16,4 +16,26 @@ Delicious tonic combinations:
 example: replace `Ginger` with `Lemon` from `tonics.txt`, without overwriting the file<br>
 `sed 's/Ginger/Lemon/' tonics.txt`
 
+example: replace file inplace:<br>
+`sed -i 's/Ginger/Lemon/' tonics.txt`
 
+delete word<br>
+`sed 's/Ginger//' tonics.txt`
+
+## delimiters
+if one of the characters you want to replace is a forward slash, `/`,<br>
+use a different delimiter.
+
+example:<br>
+`find /etc -type f > paths.txt`
+
+`cat paths.txt`
+
+deletion:<br>
+`sed 's./etc..' paths.txt`
+
+replacement:<br>
+`sed 's./etc.something-else.' paths.txt`
+
+example:
+`echo "Code Vault" | sed 's/Vault/Hive/'`
