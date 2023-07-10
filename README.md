@@ -9,7 +9,6 @@ but don't expect any certain structure, explanation or consistency.
 
 ## Upcoming
 
-`Linux/awk`<br>
 `Linux/cut`<br>
 `Linux/find`<br>
 `Linux/lsof`<br>
