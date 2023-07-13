@@ -11,6 +11,8 @@ but don't expect any certain structure, explanation or consistency.
 
 ## Upcoming
 
+# TODO: decide if cdk should be in IaC or aws dir
+
 `Linux/find`<br>
 `Linux/lsof`<br>
 `Linux/top`<br>
