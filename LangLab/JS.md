@@ -5,6 +5,9 @@
 [RunJS](https://runjs.app/)
 
 ## data types
+* boolean
+* number
+* string
 
 ## branching
 

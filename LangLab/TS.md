@@ -70,8 +70,15 @@ async function hello() {
 
 
 _.pickBy()
+```
 
+`lodash` comes without built-in types.<br>
+install types:<br>
+`npm i -D @types/lodash`
 
+## Type annotations
+
+```TypeScript
 // implicit type
 let lucky = 23;
 
@@ -93,27 +100,82 @@ let super_lucky: number = 23;
 let super_lucky = 23;
 
 // built in types from JS are available, and we can also built our own types
-
-
 ```
-
-`lodash` comes without built-in types.<br>
-install types:<br>
-`npm i -D @types/lodash`
-
-
-
-
-## Type annotations
 
 ## Custom types
 
+name commonly in PascalCase<br>
+
+```TypeScript
+// type Style = string;
+type Style = 'bold' | 'italic';  // union type
+
+let font: Style;
+
+font = 'bold'
+
+// Allow any additional fields with the any keyword
+interface Person {
+    first: string;
+    last: string;
+    [key: string]: any
+}
+
+const person: Person = {
+    first: 'John',
+    last: 'Connor'
+}
+
+const person2: Person = {
+    first: 'Jonas',
+    last: 'Vingegaard',
+    gc_cyclist: true
+}
+
+```
+
 ## Types in functions
+
+```TypeScript
+function pow(x: number, y: number): string {
+    return Math.pow(x, y).toString();
+}
+
+
+function pow(x: number, y: number): void {
+    Math.pow(x, y).toString();
+}
+```
 
 ## Arrays
 
+```TypeScript
+const arr: number[] = []
+
+arr.push(1)
+arr.push('23')
+arr.push(false)
+
+const arr: Person[] = []
+
+// Tuple with optional values
+type MyList = [number?, string?, boolean?]
+```
+
 ## Generics
 
+allow for specifying internal type later in the code, by using `<T>`
+```TypeScript
+class Observable<T> {
+    constructor(public value: T) {}
+}
+
+let x: Observable<number>;
+
+let y: Observable<Person>;
+
+let z = new Observable(23);  // implicitly get number type
+```
 
 ## Conditional properties
 
