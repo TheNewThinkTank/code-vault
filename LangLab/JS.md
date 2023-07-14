@@ -13,4 +13,11 @@
 
 ## loops
 
+Loop backwards through array:
+```JavaScript
+for (var i = arr.length - 1; i >= 0; i--) {
+    // do something with arr[i]
+}
+```
+
 ## functions
