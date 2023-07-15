@@ -61,7 +61,7 @@ cat /var/log/btmp | lastb -adF
 # npm install aws-cdk-lib
 npm install -g aws-cdk
 ## Upgrade npm
-npm install -g npm@9.7.2
+npm install -g npm@9.8.0
 ## Install TypeScript 3.8 or later
 npm -g install typescript
 ## Check cdk version

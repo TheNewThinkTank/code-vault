@@ -3,10 +3,19 @@
 ## useful commands
 
 ```BASH
+# installation
 npm install -g aws-cdk
+
+# start a new cdk app
 cdk init app --language typescript
+
+# synthesize cdk stack into CloudFormation
 cdk synth
+
+# deploy to aws
 cdk deploy
+
+# compare changes to previous deploy
 cdk diff
 ```
 

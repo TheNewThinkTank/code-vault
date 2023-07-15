@@ -13,6 +13,9 @@ but don't expect any certain structure, explanation or consistency.
 
 `aws/cdk`<br>
 
+`LangLab/JS`<br>
+`LangLab/typescript/TS`<br>
+
 `Linux/find`<br>
 `Linux/lsof`<br>
 `Linux/top`<br>
@@ -21,11 +24,8 @@ but don't expect any certain structure, explanation or consistency.
 `Linux/scp`<br>
 `Linux/etc_fstab`<br>
 
-`LangLab/JS`<br>
-`LangLab/TS`<br>
-
 ### TODOs
-- [ ] decide if cdk should be in IaC or aws dir
+- [x] decide if cdk should be in IaC or aws dir
 
 ## Experts and useful resources
 This work could only have been possible thanks to the many excellent people and resources made available
