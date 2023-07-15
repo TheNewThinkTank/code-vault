@@ -17,13 +17,24 @@ aws --version
 ## Configuration
 
 configure credentials:<br>
-`aws configure`
-this creates the `.aws/credentials` file
+`aws configure`<br>
+this creates a default user in the `.aws/credentials` file.
+for a non-default / named user:<br>
+`aws configure --profile code-vault-member`
 
 ## Example commands
 
 S3:
 ```BASH
+# list buckets
+aws s3 ls
+
+# list objects in bucket
+aws s3 ls s3://foo target-filename
+
+# copy object
+aws s3 cp s3://foo
+
 # sync from local dir to bucket
 aws s3 sync . s3://mybucket
 
