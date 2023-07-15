@@ -21,6 +21,8 @@ cdk diff
 
 ## useful resources
 
+[getting started](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html)
+
 [cdk patterns](https://www.cdkpatterns.com/)
 
 [cdk day](https://www.cdkday.com/)
