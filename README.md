@@ -25,7 +25,7 @@ but don't expect any certain structure, explanation or consistency.
 
 ## Reading list
 - [x] "The Pragmatic Programmer"
-- [] "Continuous Delivery"
+- [ ] "Continuous Delivery"
 
 ## Experts and useful resources
 This work could only have been possible thanks to the many excellent people and resources made available
