@@ -1,8 +1,14 @@
 # JavaScript
 
-[Odin project](https://www.theodinproject.com/)
+## resources 
+* [Odin project](https://www.theodinproject.com/)
+* [RunJS](https://runjs.app/)
 
-[RunJS](https://runjs.app/)
+## node.js
+run JavaScript program locally<br>
+`node programname.js`<br>
+or<br>
+`node .`
 
 ## data types
 * boolean
