@@ -32,6 +32,8 @@ const url = new URL('...')  // . for auto-complete
 
 compile: `tsc index.ts`
 
+## configuration
+
 create a configuration, `tsconfig.json`, for the compiler:<br>
 `touch tsconfig.json`
 
@@ -172,4 +174,26 @@ let x: Observable<number>;
 let y: Observable<Person>;
 
 let z = new Observable(23);  // implicitly get number type
+```
+
+## using undefined
+
+```TypeScript
+type Animal = {
+    name: string
+    legs?: number
+}
+
+
+const printAnimal = (animal: Animal) => {
+    const x = (animal.legs ? animal.legs : 0)
+}
+
+
+const dog = {
+    name = "kerberos"
+}
+
+
+printAnimal(dog)
 ```
