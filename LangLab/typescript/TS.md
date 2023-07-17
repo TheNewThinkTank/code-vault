@@ -11,6 +11,19 @@
 Strongly typed.<br>
 Superset of JavaScript.
 
+## check type
+
+`typeof`
+
+## ignore type
+
+```TypeScript
+let z: number = 3
+
+// @ts-ignore
+z = "code-vault"
+```
+
 ## compilation
 compilation (to JS, EcmaScript 3) with `tsc`.
 
@@ -211,4 +224,74 @@ type Monkey = {
 ```TypeScript
 const s: new Set<number>();
 
+```
+
+## interfaces
+
+```TypeScript
+type Fish = {
+    name: string
+    swim: () => void
+}
+
+
+type Dog = {
+    name: string
+    bark: () => void
+}
+
+
+// const printName = (animal: Dog | Fish) => {
+//     console.log(animal.name)
+// }
+
+// Use interface to ensure something getting passed to certain function has certain properties on them
+interface Animal {
+    name: string;
+}
+
+
+const printName = (animal: Animal) => {
+    console.log(animal.name)
+}
+```
+
+## enums
+
+useful if the values change later (e.g. "Small" to "small"), only change in one place
+```TypeScript
+enum ShirtSize = {
+    Small = "Small",
+    Medium = "Medium",
+    Large = "Large"
+}
+
+
+const getShirtPrice = (shirtSize: ShirtSize) => {
+    switch (shirtSize) {
+        case ShirtSize.Small:
+            return 10
+        case ShirtSize.Medium:
+            return 20
+        case ShirtSize.Large:
+            return 30
+    }
+}
+
+
+const price = getShirtPrice(ShirtSize.Small)
+```
+
+## type guard / custom guard
+
+```TypeScript
+const isFish = (animal: Fish | Dog): animal is Fish => {
+    return (animal as Fish).swim() !== undefined
+}
+
+
+const callAnimalFunc = (animal: Fish | Dog) => {
+    if (isFish(animal)) animal.swim()
+    else animal.bark()
+}
 ```
