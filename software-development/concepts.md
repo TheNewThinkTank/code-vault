@@ -16,3 +16,8 @@ Big-O
 
 OOP:<br>
 inheritance, polymorphism, encapsulation, abstraction
+
+semantic commits
+
+git bash integrations (aliases etc.)
+
