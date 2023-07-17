@@ -1,6 +1,11 @@
 # Python
 
-## List comprehensions
+## comprehensions
+
+list, dict, set, generator
+
+e.g.<br>
+`some_list = [a for a in b if some_condition]`
 
 ## Swap values
 ```Python

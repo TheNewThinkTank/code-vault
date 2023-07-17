@@ -11,3 +11,5 @@ closures
 DRY
 
 SOLID
+
+Big-O
