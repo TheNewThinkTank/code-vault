@@ -7,6 +7,10 @@ list, dict, set, generator
 e.g.<br>
 `some_list = [a for a in b if some_condition]`
 
+## lambda functions
+anonymous functions<br>
+`z = lambda x: x * 3`
+
 ## Swap values
 ```Python
 a, b = b, a
