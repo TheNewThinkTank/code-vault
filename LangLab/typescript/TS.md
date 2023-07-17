@@ -197,3 +197,18 @@ const dog = {
 
 printAnimal(dog)
 ```
+
+## combining types
+
+```TypeScript
+type Monkey = {
+    diet: string
+} & Animal
+```
+
+## sets
+
+```TypeScript
+const s: new Set<number>();
+
+```
