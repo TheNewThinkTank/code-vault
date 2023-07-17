@@ -1,7 +1,10 @@
 # Django
 
 start a new Django project<br>
-`django-admin startproject workoutplans`
+`django-admin startproject workoutplans .`
+
+install the testing framework (interface between pytest and django, with additional features)<br>
+`pip install pytest-django`
 
 run Django app with the development server<br>
 `python manage.py runserver (runs at local port 8000)`
