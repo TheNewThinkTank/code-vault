@@ -23,6 +23,8 @@ but don't expect any certain structure, explanation or consistency.
 `Linux/scp`<br>
 `Linux/etc_fstab`<br>
 
+`software-development/data-structures`<br>
+
 ## Reading list
 - [x] "The Pragmatic Programmer"
 - [ ] "Continuous Delivery"
