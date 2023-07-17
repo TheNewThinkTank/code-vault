@@ -13,3 +13,6 @@ DRY
 SOLID
 
 Big-O
+
+OOP:<br>
+inheritance, polymorphism, encapsulation, abstraction

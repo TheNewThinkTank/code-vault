@@ -37,6 +37,7 @@ largely through the open source community and popular channels. To name a few,
 * Derek Banas
 * Learn Linux TV
 * Python Engineer
+* Tech With Tim
 * Fireship
 * Real Python
 * A Cloud Guru
