@@ -12,6 +12,7 @@ but don't expect any certain structure, explanation or consistency.
 ## Upcoming
 
 `aws/cdk`<br>
+`aws/certs/devops_engineer_pro`<br>
 
 `LangLab/JS`<br>
 `LangLab/typescript/TS`<br>
