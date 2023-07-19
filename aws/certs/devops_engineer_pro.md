@@ -1,23 +1,31 @@
 # DevOps Engineer Pro
 
-## Domain 1: SDLC Automation
 
-- CI/CD pipelines
-- SDLC concepts, phases, and model
-- deployment patterns
 
-- CodeCommit
-- CodeBuild
-- CodeArtifact
-- Secrets Manager
-- Systems Manager Parameter Store
-- CodeDeploy
+<details>
+  <summary>Domain 1: SDLC Automation</summary>
 
-- automated testing
-- unit tests, integration tests, acceptance tests, user
+  ## Implement CI/CD pipelines
+  - SDLC concepts, phases, and model
+  - deployment patterns
+  - CodeCommit
+  - CodeBuild
+  - CodeArtifact
+  - Secrets Manager
+  - Systems Manager Parameter Store
+  - CodeDeploy
+
+  ## Integrate automated testing into CI/CD pipelines
+  - automated testing
+  - unit tests, integration tests, acceptance tests, user
 interface tests, security scans
 
-- artifacts
+
+</details>
+
+
+
+<!-- - artifacts
 - ECR
 - S3
 - Lambda
@@ -29,7 +37,7 @@ interface tests, security scans
 - EBS
 - IAM
 - CodeDeploy agent
-- deployments: blue/green, canary
+- deployments: blue/green, canary -->
 
 ## Domain 2: Configuration Management and IaC
 
