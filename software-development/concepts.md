@@ -10,7 +10,15 @@ closures
 
 DRY
 
-SOLID
+SOLID:<br>
+- Single responsibility
+- Open (for extention) / Closed (for modification)
+- Liskov substitution
+- Interface segregation
+- Dependency inversion
+
+LoD (Law of Demeter):<br>
+principle of least knowledge
 
 Big-O
 
