@@ -14,4 +14,5 @@ AuthN, AuthZ
 
 OWASP top 10
 
-SQLi
+## SQLi
+escape characters
