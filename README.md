@@ -1,8 +1,6 @@
 # code-vault
 
-
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/code-vault?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/code-vault/archive/refs/heads/main.zip)
-
 
 "Developers handbook" / "udviklerens ståbi"
 
@@ -32,8 +30,15 @@ but don't expect any certain structure, explanation or consistency.
 `software-development/data-structures`<br>
 
 ## Reading list
-- [x] "The Pragmatic Programmer"
 - [ ] "Continuous Delivery"
+- [ ] "Fluent Python"
+- [ ] "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow"
+- [x] "Accelerate"
+- [x] "Creative Confidence"
+- [x] "Star Schema"
+- [x] "The Clean Coder"
+- [x] "The Pragmatic Programmer"
+
 
 ## Experts and useful resources
 This work could only have been possible thanks to the many excellent people and resources made available
