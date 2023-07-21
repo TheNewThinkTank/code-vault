@@ -7,6 +7,35 @@
 [Mozilla](https://docs.telemetry.mozilla.org/concepts/sql_style.html)<br>
 [Simon Holywell](https://www.sqlstyle.guide/)<br>
 
+## DDL (Data Definition Language)
+- CREATE
+- ALTER
+- DROP
+- RENAME
+- TRUNCATE
+- COMMENT
+
+## DML (Data manipulation Language)
+- SELECT
+- INSERT
+- UPDATE
+- DELETE
+- MERGE
+- CALL
+- EXPLAIN PLAN
+- LOCK TABLE
+
+## DCL (Data Control Language)
+- GRANT
+- REVOKE
+
+## TCL (Transaction Control Language)
+- COMMIT
+- ROLLBACK
+- SAVE POINT
+- SET
+- TRANSACTION
+
 ## Basic querying
 
 ```SQL
