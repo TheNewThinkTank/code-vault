@@ -2,6 +2,12 @@
 
 ## Windows
 
+run<br>
+`Win + r`
+
+new explorer window<br>
+`Win + e`
+
 ## macOS
 
 ## VS Code
