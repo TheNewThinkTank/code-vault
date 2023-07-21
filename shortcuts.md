@@ -13,6 +13,12 @@ new integrated terminal<br>
 toggle file explorer<br>
 `Cmd + b`
 
+### on Windows
+
+new integrated terminal<br>
+`Ctrl + æ`
+
+
 ## Jupyter notebook
 
 new cell:
