@@ -6,6 +6,9 @@
 
 ## VS Code
 
+TODO:<br>
+multi-line cursor
+
 ### on macOS
 new integrated terminal<br>
 `Ctrl + ` `
@@ -21,4 +24,5 @@ new integrated terminal<br>
 
 ## Jupyter notebook
 
-new cell:
+TODO:<br>
+new cell
