@@ -1,5 +1,8 @@
 # Shortcuts
 
+clear screen<br>
+`Ctrl + l`
+
 ## Windows
 
 run<br>
