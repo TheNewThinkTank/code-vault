@@ -28,6 +28,20 @@ e.g.<br>
 anonymous functions<br>
 `z = lambda x: x * 3`
 
+use lambda function to sort dictionary by specific key
+```Python
+people = [
+    {"name": "Oppenheimer", "age": 62},
+    {"name": "Einstein", "age": 76},
+    {"name": "Schubert", "age": 31},
+]
+
+people.sort(key=lambda person: person['age'])
+```
+
+
+
+
 ### map
 ```Python
 some_list = [1, 2, 4, 5, 6]
