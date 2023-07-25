@@ -1,5 +1,66 @@
 # Python
 
+## Data types and methods
+
+list:
+- zip
+- enumerate
+
+reverse list: `some_list[::-1]`
+
+dict:
+- get
+- setdefault
+
+example
+```Python
+student_grades = {}
+
+spanish_grades = student_grades.setdefault("Roberto", {})
+spanish_grades["spanish"] = 90
+print(student_grades)  # {"Roberto": {"spanish": 90}}
+```
+
+## for-else and while-else
+
+```Python
+nums = [1, 2, 3, 4, 5,]
+find = 4
+
+for num in nums:
+    if num == find:
+        print(f"found {find} in the list.")
+        break
+else:
+    # This block will execute only if the loop completed without encountering a 'break'
+    print(f"{find} was not found in the list.")
+
+
+count = 5
+
+while count > 0:
+    print(count)
+    count -= 1
+else:
+    # This block will execute once the condition in the while statement is no longer true
+    print("Liftoff!")
+```
+
+## print
+
+pretty printing
+```Python
+from pprint import pprint as pp
+
+pp(some_dict)
+```
+
+```Python
+nums = [1, 2, 3, 4, 5,]
+
+print(*nums, sep="-", end="no new line after this string")
+```
+
 ## walrus operator
 
 example
@@ -38,9 +99,6 @@ people = [
 
 people.sort(key=lambda person: person['age'])
 ```
-
-
-
 
 ### map
 ```Python
