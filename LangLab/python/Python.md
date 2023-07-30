@@ -5,8 +5,7 @@
 list:
 - zip
 - enumerate
-
-reverse list: `some_list[::-1]`
+- reverse list: `some_list[::-1]`
 
 dict:
 - get
