@@ -20,6 +20,7 @@ but don't expect any certain structure, explanation or consistency.
 `aws/certs/devops_engineer_pro`<br>
 
 `LangLab/JS`<br>
+`LangLab/python/sphinx`<br>
 `LangLab/typescript/TS`<br>
 
 `Linux/lsof`<br>
