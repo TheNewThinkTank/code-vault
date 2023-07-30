@@ -1,9 +1,17 @@
 # Sphinx
 
-sphinx quickstart
+```BASH
+mkdir docs && cd docs
 
-autodoc
+sphinx-quickstart
+
+# edit conf.py
+
+sphinx-apidoc -o ./ ../src
+# or:
+sphinx-apidoc -o ./source ../src
 
 make clean
 
 make html
+```
