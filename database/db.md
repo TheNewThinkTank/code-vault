@@ -15,6 +15,12 @@ ACID:
 - Isolation
 - Durability
 
+CRUD:
+- Create
+- Read
+- Update
+- Delete
+
 sharding vs replication
 
 CAP theorem:
