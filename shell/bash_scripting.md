@@ -11,6 +11,9 @@ find the location of bash<br>:
 create file
 `nano some_file.sh`
 
+add shebang to top of file
+`#!/bin/bash`
+
 make the file executable
 `sudo chmod +x some_file.sh`
 
