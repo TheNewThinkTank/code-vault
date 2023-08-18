@@ -1,6 +1,17 @@
 # Django
 
-upcoming:
+The Python-based Django framework is used by:
+
+<!-- get URLS served from CDN here: https://icons8.com/icons -->
+
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="instagram-new"/>
+<img width="48" height="48" src="https://img.icons8.com/color/48/dropbox.png" alt="dropbox"/>
+<img width="48" height="48" src="https://img.icons8.com/color/48/spotify--v1.png" alt="spotify--v1"/>
+<img width="48" height="48" src="https://img.icons8.com/fluency/48/youtube-play.png" alt="youtube-play"/>
+<img width="48" height="48" src="https://img.icons8.com/material-sharp/48/pinterest--v1.png" alt="pinterest--v1"/>
+<img width="48" height="48" src="https://img.icons8.com/color/48/bitbucket.png" alt="bitbucket"/>
+
+Upcoming:
 - configure URLs
 - database model creation
 - dynamic data in templates
