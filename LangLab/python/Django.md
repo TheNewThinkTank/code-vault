@@ -64,6 +64,28 @@ def home(request):
     return HttpResponse("Welcome to the workoutapp")
 ```
 
+then in `workoutapp/urls.py`:
+```Python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path("", views.home, name="home")
+]
+```
+
+then in `workoutplans/urls.py`:
+```Python
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("workoutapp/", include("workoutapp.urls")),
+]
+```
+
+
 ## Development server
 Run app<br>
 `python manage.py runserver`
