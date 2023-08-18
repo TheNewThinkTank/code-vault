@@ -14,7 +14,7 @@ The Python-based Django framework is used by:
 </div>
 
 Upcoming:
-- configure URLs
+- configuring URLs
 - database model creation
 - dynamic data in templates
 - admin panel
@@ -52,9 +52,17 @@ under `INSTALLED_APPS`,
 add an entry for the name of the new django app that was just created.
 
 ## Views
-open `workoutapp/views.py`
 
-A view is a function that receives a request and returns a response
+A view is a function that receives a request and returns a response.
+
+example, `workoutapp/views.py`:
+```Python
+from django.shortcuts import render, HttpResponse
+
+
+def home(request):
+    return HttpResponse("Welcome to the workoutapp")
+```
 
 ## Development server
 Run app<br>
