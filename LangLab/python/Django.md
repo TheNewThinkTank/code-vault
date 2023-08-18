@@ -125,6 +125,16 @@ the `tests.py` file: adding automated tewst cases.
 the `views.py` file:
 create different views or routes, that can be accessed from the website.
 
+## templates
+
+example, create `templates/index.html`,
+populate using emmet,
+then add blocks, e.g.
+`<title>{% block title %}workoutplans{% endblock %}</title>`
+
+which uses the jinja templating engine, which allows displaying dynamic data.
+
+
 ## CSS
 
 - bootstrap
