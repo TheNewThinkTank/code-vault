@@ -48,6 +48,9 @@ add<br>
 update `TEMPLATES[“DIRS”]` with:<br>
 `os.path.join(BASE_DIR, "workoutapp/templates")`
 
+under `INSTALLED_APPS`,
+add an entry for the name of the new django app that was just created.
+
 ## Views
 open `workoutapp/views.py`
 
@@ -80,6 +83,17 @@ that can then be directed / routed to different Django applications.
 the `manage.py` file acts as a command line tool,
 and can be used for running the django development server,
 do database migrations, create users and more.
+
+the `models.py` file:
+here the database models are placed.
+
+the `admin.py` file:
+register database models so they can be viewed on the admin panel.
+
+the `tests.py` file: adding automated tewst cases.
+
+the `views.py` file:
+create different views or routes, that can be accessed from the website.
 
 ## Run Django app with Docker
 
