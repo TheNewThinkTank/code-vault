@@ -127,13 +127,22 @@ create different views or routes, that can be accessed from the website.
 
 ## templates
 
-example, create `templates/index.html`,
+example, create `templates/base.html`,
 populate using emmet,
 then add blocks, e.g.
-`<title>{% block title %}workoutplans{% endblock %}</title>`
+```HTML
+<title>{% block title %}workoutplans{% endblock %}</title>
+```
 
 which uses the jinja templating engine, which allows displaying dynamic data.
 
+re-using template in `templates/home.html`:
+```HTML
+{% extends "base.html" %} {% block title %} Home {% endblock %}
+{% block content %}
+<p>welcome to the workoutplans home page</p>
+{% endblock %}
+```
 
 ## CSS
 
