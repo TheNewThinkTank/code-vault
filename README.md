@@ -18,12 +18,16 @@ but don't expect any certain structure, explanation or consistency.
 
 ## Upcoming
 
+<img width="48" height="48" src="https://img.icons8.com/color/48/amazon-web-services.png" alt="amazon-web-services"/>
+
 `aws/cdk`<br>
 `aws/certs/devops_engineer_pro`<br>
 
 `LangLab/JS`<br>
 `LangLab/python/sphinx`<br>
 `LangLab/typescript/TS`<br>
+
+<img width="48" height="48" src="https://img.icons8.com/color/48/linux--v1.png" alt="linux--v1"/>
 
 `Linux/lsof`<br>
 `Linux/top`<br>
