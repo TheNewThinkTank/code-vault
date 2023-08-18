@@ -95,6 +95,11 @@ the `tests.py` file: adding automated tewst cases.
 the `views.py` file:
 create different views or routes, that can be accessed from the website.
 
+## CSS
+
+- bootstrap
+- tailwind
+
 ## Run Django app with Docker
 
 ```BASH
