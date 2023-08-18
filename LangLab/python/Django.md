@@ -20,6 +20,10 @@ Upcoming:
 - admin panel
 
 ## Setup new Django project
+
+installation:<br>
+`pip install django`
+
 start a new Django project<br>
 `django-admin startproject workoutplans .`
 
@@ -62,6 +66,20 @@ if you wish to change port:<br>
 then visit<br>
 http://127.0.0.1:8000/workoutapp/welcome_view/
 
+## Files
+
+the special configuration files `asgi.py` and `wsgi.py` allow django to communicate with the web server.
+
+the `settings.py` file:<br>
+to install django apps, plugins, middleware,
+or modify database engines.
+
+the `urls.py` file: configure different url routes,
+that can then be directed / routed to different Django applications.
+
+the `manage.py` file acts as a command line tool,
+and can be used for running the django development server,
+do database migrations, create users and more.
 
 ## Run Django app with Docker
 
