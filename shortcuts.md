@@ -1,6 +1,6 @@
 # Shortcuts
 
-clear screen<br>
+clear terminal screen<br>
 `Ctrl + l`
 
 ## Windows
@@ -30,6 +30,11 @@ toggle file explorer<br>
 new integrated terminal<br>
 `Ctrl + æ`
 
+comment in/out line<br>
+`Ctrl + '`
+
+find next occurence<br>
+`Ctrl + d`
 
 ## Jupyter notebook
 
