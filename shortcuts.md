@@ -16,6 +16,9 @@ new explorer window<br>
 ## VS Code
 
 TODO:<br>
+playground
+
+TODO:<br>
 multi-line cursor
 
 ### on macOS
