@@ -26,6 +26,13 @@ for (var i = arr.length - 1; i >= 0; i--) {
 }
 ```
 
+## reverse array without reassigning
+
+```JavaScript
+const arr = ['a', 'b', 'c'];
+const reversed = arr.toReversed();
+```
+
 ## functions
 
 ## ternary statement
