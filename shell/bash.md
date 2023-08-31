@@ -1,5 +1,13 @@
 # BASH
 
+## BASH dir compression
+
+create an archive file called foo.tar.gz in current directory<br>
+`tar -zcvf foo.tar.gz /home/jerry/tom`
+
+to restore/extract all files from archive in current directory<br>
+`tar -zxvf foo.tar.gz`
+
 ## Basic commands
 clear screen: `Ctrl + l`<br>
 change to home dir: `cd ~`<br>
