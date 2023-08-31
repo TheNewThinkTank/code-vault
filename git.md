@@ -30,6 +30,10 @@ git commit -am "feat: rewrite git history" --no-verify
 git branch -D main
 git branch -m main
 git push -f origin main
-git gc --aggressive --prune=all
+cd .git
+git reflog expire --expire=now --all && git gc --prune=now --aggressive
+# check size:
+du -hs .
+du -hs .git
 '
 ```
