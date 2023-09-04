@@ -2,6 +2,11 @@
 
 [Book](https://git-scm.com/book/en/v2)
 
+upcoming:
+- cherry-picking
+- force-with-lease
+- squash
+
 ## Fixing detached HEAD, when on feature branch
 ```BASH
 git pull --rebase origin main
