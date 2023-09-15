@@ -12,6 +12,12 @@ upcoming:
 initialize empty git repo
 `git init <repo-name>`
 
+push repo to remote:
+```BASH
+git remote add origin <repo-url>
+git push origin master
+```
+
 clone repo locally<br>
 `git clone <repo-url>`
 
