@@ -7,6 +7,43 @@ upcoming:
 - force-with-lease
 - squash
 
+## Basics
+
+initialize empty git repo
+`git init <repo-name>`
+
+configuration
+```BASH
+git config --global user.email "user@gmail.com"
+git config --global user.name "user"
+```
+
+repository status<br>
+`git status`
+
+add file to staging area<br>
+`git add <filename>`
+
+commit changes to repo<br>
+`git commit -m '<commit-message>'`
+
+push changes to remote server<br>
+`git push`
+
+get latest changes from remote<br>
+`git pull`
+
+ignore files and dirs by adding their relative paths to the following file<br>
+`.gitignore`
+
+## Branching
+
+create new branch<br>
+`git checkout -B '<new-branch-name>'`
+
+delete branch<br>
+`git branch -D '<branch-to-delete>'`
+
 ## Inspect recent changes
 
 e.g. for the `src` dir,<br>
@@ -17,12 +54,6 @@ e.g. for the `src` dir,<br>
 git pull --rebase origin main
 git log
 git push --force
-```
-
-## Configuration
-```BASH
-git config --global user.email "user@gmail.com"
-git config --global user.name "user"
 ```
 
 ## Remove all git history from repo
