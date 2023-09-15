@@ -21,6 +21,9 @@ git config --global user.name "user"
 repository status<br>
 `git status`
 
+specific filechanges<br>
+`git diff <file-name>`
+
 add file to staging area<br>
 `git add <filename>`
 
