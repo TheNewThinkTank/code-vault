@@ -7,6 +7,11 @@ upcoming:
 - force-with-lease
 - squash
 
+## Inspect recent changes
+
+e.g. for the `src` dir,<br>
+`git whatchanged --since="last Sunday" -p -- src`
+
 ## Fixing detached HEAD, when on feature branch
 ```BASH
 git pull --rebase origin main
