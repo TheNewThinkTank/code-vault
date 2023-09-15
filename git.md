@@ -24,6 +24,12 @@ repository status<br>
 specific filechanges<br>
 `git diff <file-name>`
 
+get quick overview of last repo change<br>
+`git log --oneline`
+
+undo changes<br>
+`git revert <git-hash>`
+
 add file to staging area<br>
 `git add <filename>`
 
