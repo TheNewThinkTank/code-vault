@@ -12,6 +12,9 @@ upcoming:
 initialize empty git repo
 `git init <repo-name>`
 
+clone repo locally<br>
+`git clone <repo-url>`
+
 configuration
 ```BASH
 git config --global user.email "user@gmail.com"
