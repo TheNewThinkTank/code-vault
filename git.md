@@ -62,6 +62,9 @@ create new branch<br>
 delete branch<br>
 `git branch -D '<branch-to-delete>'`
 
+upcoming:
+rebase
+
 ## Inspect recent changes
 
 e.g. for the `src` dir,<br>
