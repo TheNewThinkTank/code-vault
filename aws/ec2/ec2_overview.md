@@ -34,7 +34,7 @@
 ## Metadata
 
 Data about the EC2 instance. Inspect:<br>
-`curl http://<IP>/latest/meta-data/`<br
+`curl http://<IP>/latest/meta-data/`<br>
 e.g. getting the IP:<br>
 `curl http://<IP>/latest/meta-data/public-ipv4`
 
