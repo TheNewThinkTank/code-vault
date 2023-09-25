@@ -18,3 +18,15 @@
 - T2/T3: burstable
 
 [Instance overview](https://www.ec2instances.info)
+
+## Related Services
+
+- ASG
+- ELB
+- EBS
+- EFS
+
+# Relevant Knowledge
+
+- SSH
+- User Data / bootstrapping
