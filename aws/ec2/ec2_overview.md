@@ -28,7 +28,7 @@
 
 # Relevant Knowledge
 
-- SSH
+- SSH (e.g. `ssh ec2-user@<IP> -i <rsa-key.pem>`)
 - User Data / bootstrapping
 
 ## Metadata
