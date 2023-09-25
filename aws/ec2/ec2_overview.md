@@ -30,3 +30,8 @@
 
 - SSH
 - User Data / bootstrapping
+
+## Metadata
+
+Data about the EC2 instance. Inspect:<br>
+`curl http://<IP>/latest/meta-data/`
