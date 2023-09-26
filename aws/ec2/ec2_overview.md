@@ -40,3 +40,6 @@ e.g. getting the IP:<br>
 
 Similarly, `user-data` can also be queried:<br>
 `curl http://<IP>/latest/user-data`
+
+# TODO: AMI's
+# TODO: Image Builder
