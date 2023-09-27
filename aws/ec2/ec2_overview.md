@@ -43,3 +43,4 @@ Similarly, `user-data` can also be queried:<br>
 
 # TODO: AMI's
 # TODO: Image Builder
+# TODO: placement groups
