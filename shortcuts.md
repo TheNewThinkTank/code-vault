@@ -1,45 +1,33 @@
 # Shortcuts
 
-clear terminal screen<br>
-`Ctrl + l`
+## OS Shortcuts
 
-## Windows
+| action | macOS | Windows |
+| :----- | :---: | ------: |
+| run | | `Win + r` |
+| new explorer window | `Shift + Cmd + N` | `Win + e` |
 
-run<br>
-`Win + r`
+## Terminal Shortcuts
 
-new explorer window<br>
-`Win + e`
+| action | macOS | Windows |
+| :----- | :---: | ------: |
+| clear terminal screen | `Ctrl + L` | `Ctrl + L` |
 
-## macOS
+## VSCode Shortcuts
 
-## VS Code
+| action | macOS | Windows |
+| :-------- | :------: | ----: |
+| zoom in / out | `Cmd + +/-` | `Ctrl + +/-` |
+| new integrated terminal | `Shift + Ctrl + ` ` | `Ctrl + æ` |
+| multi-line cursor | | |
+| toggle file explorer | `Cmd + b` | |
+| comment in/out line | | `Ctrl + '` |
+| find next occurence | | `Ctrl + d` |
 
-TODO:<br>
-playground
-
-TODO:<br>
-multi-line cursor
-
-### on macOS
-new integrated terminal<br>
-`Ctrl + ` `
-
-toggle file explorer<br>
-`Cmd + b`
-
-### on Windows
-
-new integrated terminal<br>
-`Ctrl + æ`
-
-comment in/out line<br>
-`Ctrl + '`
-
-find next occurence<br>
-`Ctrl + d`
+### playground
 
 ## Jupyter notebook
 
-TODO:<br>
-new cell
+| action | macOS | Windows |
+| :-------- | :------: | ----: |
+| new cell | | |
