@@ -5,8 +5,8 @@
 
 | action | macOS | Windows |
 | :----- | :---: | ------: |
-| run | | `Win + r` |
-| new explorer window | `Shift + Cmd + N` | `Win + e` |
+| run | | `Win + R` |
+| new explorer window | `Shift + Cmd + N` | `Win + E` |
 
 </details>
 
@@ -25,11 +25,11 @@
 | action | macOS | Windows |
 | :-------- | :------: | ----: |
 | zoom in / out | `Cmd + +/-` | `Ctrl + +/-` |
-| new integrated terminal | `Shift + Ctrl + ` ` | `Ctrl + æ` |
+| new integrated terminal | `Shift + Ctrl + ` ` | `Ctrl + Æ` |
 | multi-line cursor | | |
-| toggle file explorer | `Cmd + b` | |
+| toggle file explorer | `Cmd + B` | `Ctrl + B` |
 | comment in/out line | | `Ctrl + '` |
-| find next occurence | | `Ctrl + d` |
+| find next occurence | | `Ctrl + D` |
 
 playground
 
