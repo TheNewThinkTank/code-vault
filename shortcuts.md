@@ -7,6 +7,7 @@
 | :----- | :---: | ------: |
 | run | | `Win + R` |
 | new explorer window | `Shift + Cmd + N` | `Win + E` |
+| toggle dock | `Cmd + Option + D` | |
 
 </details>
 
