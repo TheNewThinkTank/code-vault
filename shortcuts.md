@@ -28,7 +28,7 @@
 | :-------- | :------: | ----: |
 | zoom in / out | `Cmd + +/-` | `Ctrl + +/-` |
 | new integrated terminal | `Shift + Ctrl + ` ` | `Ctrl + Æ` |
-| multi-line cursor | | |
+| multi-line cursor | `Shift + Cmd + L` or `Option + Cmd + UpArrow/DownArrow` | |
 | toggle file explorer | `Cmd + B` | `Ctrl + B` |
 | comment in/out line | | `Ctrl + '` |
 | find next occurence | | `Ctrl + D` |
