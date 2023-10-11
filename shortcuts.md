@@ -17,6 +17,10 @@
 | action | macOS | Windows |
 | :----- | :---: | ------: |
 | clear terminal screen | `Ctrl + L` | `Ctrl + L` |
+| zoom in/out | `Cmd +/-` | `Ctrl +/-` |
+| delete line | `Ctrl + U` | `Ctrl + U` |
+| front of line | `Ctrl + A` | `Ctrl + A` |
+| end of line | `Ctrl + E` | `Ctrl + E` |
 
 </details>
 

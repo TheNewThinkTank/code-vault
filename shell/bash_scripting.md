@@ -2,7 +2,47 @@
 
 command interpreter / shell
 
-find out which shell is used from a given treminal window<br>:
+return to previous dir<br>
+`cd -`
+
+move to `some-dir` and return at any moment
+```BASH
+pushd <some-dir>
+popd
+```
+
+move to background, and bring up again<br>
+```BASH
+Ctrl + Z
+fg
+```
+
+reverse search through history<br>
+`Ctrl + R`
+
+add timestamp to history. Ignore commands if started by whitespace<br>
+```BASH
+nano ~/.bashrc
+HISTTIMEFORMAT="%Y-%m-%d %T "
+HISTCONTROL=ignoreboth
+```
+
+run 2 commands in a row<br>
+`ls -l; echo "i am the second command"`
+
+only run second command if first succeeds<br>
+`ls -l && echo "i am the second command"`
+
+follow log-file in real-time<br>
+`tail -f <some-log-file>`
+
+delete content of file<br>
+`truncate -s 0 <some-file>`
+
+ensure output is columnized<br>
+`mount | column -t`
+
+find out which shell is used from a given terminal window<br>:
 `echo $SHELL`
 
 find the location of bash<br>:
