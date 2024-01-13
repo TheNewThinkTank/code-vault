@@ -9,12 +9,27 @@
 
 ## Tools
 
+etcd (pods) (data store for kubernetes controller/master server(s)):
+provides distributed synchronized data storage for the cluster state
+
+kube-apiserver
+
+kube-scheduler
+
 - KubeAdm
-- kubelet
+
+- kubelet: runs as a service. Controls the pods<br>
+e.g.
+`sudo systemctl status kubelet`
+
 - kubectl
+
+- kube-proxy (part of handling the virtual network of the cluster)
 
 `kubectl get pods -n kube-system`<br>
 `kubectl get nodes`<br>
+`kubectl get deployments`<br>
+`kubectl describe deployment nginx-deployment`<br>
 
 Get pod info (containers running inside etc.)
 `kubectl describe pod nginx`<br>
@@ -23,6 +38,10 @@ Get pod info (containers running inside etc.)
 - helmchart
 - Kustomize
 - Argo CD
+https://argo-cd.readthedocs.io/en/stable/
+
+
+services
 
 IaC: Pulumi or Terraform
 
