@@ -9,6 +9,7 @@ to restore/extract all files from archive in current directory<br>
 `tar -zxvf foo.tar.gz`
 
 ## Basic commands
+
 clear screen: `Ctrl + l`<br>
 change to home dir: `cd ~`<br>
 change to previous dir: `cd -`<br>
@@ -108,4 +109,5 @@ shutdown -h now
 ```
 
 ## VS Code
-new terminal: Ctrl + æ
+
+new terminal: `Ctrl + æ` (Win) | ```Shift + Ctrl + ` ``` (Mac)

@@ -22,7 +22,7 @@ reverse search through history<br>
 
 add timestamp to history. Ignore commands if started by whitespace<br>
 ```BASH
-nano ~/.bashrc
+vim ~/.bashrc
 HISTTIMEFORMAT="%Y-%m-%d %T "
 HISTCONTROL=ignoreboth
 ```
@@ -49,10 +49,10 @@ find the location of bash<br>:
 `which bash`
 
 create file
-`nano some_file.sh`
+`vim some_file.sh`
 
 add shebang to top of file
-`#!/bin/bash`
+`#!/usr/env/bin bash`
 
 make the file executable
 `sudo chmod +x some_file.sh`
