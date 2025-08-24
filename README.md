@@ -1,10 +1,10 @@
 ![commit activity](https://img.shields.io/github/commit-activity/m/TheNewThinkTank/code-vault)
 
-# code-vault
+# Code Vault
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/TheNewThinkTank/code-vault?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)](https://github.com/TheNewThinkTank/code-vault/archive/refs/heads/main.zip)
 
-"Developers handbook" / "udviklerens ståbi"
+"Developers Handbook" / "Udviklerens Ståbi"
 
 Welcome to the Snippet Hive / Tech Trove / Code Cabinet / Script Sanctuary.
 
