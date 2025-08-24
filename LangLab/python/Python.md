@@ -171,8 +171,6 @@ multi-processing / multi-threading
 ## Testing
 TDD with Pytest
 
-## Collections
-
 ## Itertools
 
 ## Functools
